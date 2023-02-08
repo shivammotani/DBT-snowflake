@@ -39,3 +39,8 @@ models:
       
     jaffle_shop:
       materialized: view
+
+seeds:
+  dbt_training_project:
+    jaffle_shop:
+      +schema: seed_data
