@@ -34,6 +34,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_training_project:
     # Applies to all files under models/example/
+    QWT:
+      +database: QWT_ANALYTICS
     example:
       materialized: table
       

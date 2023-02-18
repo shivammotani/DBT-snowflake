@@ -1,0 +1,11 @@
+version : 2
+
+seeds:
+  - name: qwt_divisions
+    description: "divisions data for QWT"
+    docs:
+      show: true
+    config:
+      schema: Staging
+      alias: seed_divisions
+      database: QWT_ANALYTICS
